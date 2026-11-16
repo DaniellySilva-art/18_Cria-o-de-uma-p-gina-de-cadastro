@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <section class="apresentacao">
+            <div class="texto">
+                <h1>
+                    Aprenda a programar
+                    assistindo outras pessoas
+                </h1>
+                <p>
+                    Veja como desenvolvedores experientes resolvem
+                    problemas em tempo real. Assistir a tutoriais é
+                    ótimo, mas entender como os desenvolvedores pensam
+                    é ainda melhor.
+                </p>
+            </div>
+        </section>
+
+        <section class="area-formulario">
+
+            <div class="oferta">
+                <strong>Experimente grátis por 7 dias</strong>
+                <span>depois R$ 20/mês.</span>
+            </div>
+
+            <form>
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="nome" name="nome" placeholder="Nome">
+                        <img class="icone-erro" src="images/icon-error.svg" alt="erro">
+                    </div>
+                    <span class="mensagem-erro"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                        <img class="icone-erro" src="images/icon-error.svg" alt="erro">
+                    </div>
+                    <span class="mensagem-erro"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <div class="input-wrapper">
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                        <img class="icone-erro" src="images/icon-error.svg" alt="erro">
+                    </div>
+                    <span class="mensagem-erro"></span>
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+                    <div class="input-wrapper">
+                        <input type="password" id="senha" name="senha" placeholder="Senha">
+                        <img class="icone-erro" src="images/icon-error.svg" alt="erro">
+                    </div>
+                    <span class="mensagem-erro"></span>
+                </div>
+
+                <button type="submit">CRIAR MINHA CONTA</button>
+
+                <p class="termos">
+                    Ao clicar no botão, você concorda com nossos
+                    <a href="#">Termos e Serviços</a>
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="js/validation.js"></script>
+</body>
+
+</html>
